@@ -24,7 +24,7 @@ def Search(getA):
             if rec in getLink.get("src"):
                 if len(data) >= 0 and data not in overlap:
                     overlap.append(data)
-                    accessUrl = site + getLink.get("src")
+                    accessUrl = site + getLinkgit .get("src")
                     print(accessUrl)
                     target = target_word + str(i) + ".jpg"
                     urllib.request.urlretrieve(accessUrl, target)
